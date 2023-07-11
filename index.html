@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amritpreet-Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Amritpreet's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/"> About</a></li>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/"> Services</a></li>
+            <li><a href="/"> Projects</a></li>
+            <li><a href="/"> Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div> Hi, My name is <span class="purple">Amritpreet</span>
+         <div>and I am a passionate </div>
+          <span id="element"></span>
+         </div>
+        
+          
+          <div class="buttons">
+          <a href="resume_final.pdf" download="Resume"><button class="btn">Download Resume</button></a>
+          <a href="https://github.com/amrit22102"><button class="btn">Visit Github</button></a>
+        </div>
+        </div>
+        <div class="rightsection">
+          <img src="background.png" alt="Background" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experiences</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="something" />
+            <div class="title-vertical">HTML Developer(2020-21)</div>
+            <div class="desc-vertical">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores iusto tempore sapiente deleniti explicabo blanditiis
+              soluta a id, quos minus?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="something" />
+            <div class="title-vertical">HTML+CSS Developer(2021-22)</div>
+            <div class="desc-vertical">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores iusto tempore sapiente deleniti explicabo blanditiis
+              soluta a id, quos minus?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="something" />
+            <div class="title-vertical">Javascript Developer (2022-Present)</div>
+            <div class="desc-vertical">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores iusto tempore sapiente deleniti explicabo blanditiis
+              soluta a id, quos minus?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="something" />
+            <div class="title-vertical">React Framework (Currently Learning)</div>
+            <div class="desc-vertical">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores iusto tempore sapiente deleniti explicabo blanditiis
+              soluta a id, quos minus?
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first-footer">Amrit's Developer Portfolio</div>
+        <div class="second-footer">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Sevices</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="third-footer"> <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Sevices</li>
+          <li>Contact</li>
+        </ul></div>
+        <div class="fourth-footer">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Sevices</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-center">
+          Copyright &#169 www.amritpreetsportfolio.com | All rights reserved
+      </div>
+      
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["MERN Stack Developer", "Leetcode Problem Solver", "AI  ML Enthusiast"],
+        typeSpeed: 40,
+      });
+    </script>
+  </body>
+</html>
